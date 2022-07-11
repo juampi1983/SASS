@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:wght@300;400&display=swap");
+.base {
+  background: linear-gradient(to right, white, #45526e);
+  display: flex;
+  justify-content: space-between; }
+  .base .logo_nav {
+    width: 20vw; }
+    .base .logo_nav:hover {
+      transform: rotateZ(15deg);
+      transition: transform 1s; }
+  .base ul li a {
+    font-size: 1.5em; }
+
+.main h5 {
+  font-size: 2em;
+  text-decoration: underline;
+  font-weight: 400; }
+
+.main p {
+  font-size: 1.5em;
+  width: 50vw;
+  font-weight: 300; }
+
+.main .img_art {
+  width: 50vw;
+  padding-top: 10px;
+  padding-left: 10px; }
+
+.pie {
+  background: linear-gradient(to right, white, #45526e); }
