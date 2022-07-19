@@ -1,0 +1,13 @@
+.contacto {
+    background-color: $translight ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .titulocontacto {
+        font-size: $textLg ;
+        font-weight: $medium;
+        color: $dark;
+       margin-top: 1em;
+    }
+
+}

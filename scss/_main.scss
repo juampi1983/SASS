@@ -1,18 +1,38 @@
+.articulo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .main {
-    h5 {
+    background-color: $mainColor;
+    .titulo {
         font-size: $textLg ;
         text-decoration: underline;
-        font-weight: $regular;
+        font-weight: $medium;
+        color: whitesmoke
     }
     p {
-        font-size: $textMd ;
-        width: 50vw;
-        font-weight: $light;
+@include parrafomain (1.5em, white);
         
     }
     .img_art {
-        width: 50vw;
+        width: 40vw;
         padding-top: 10px;
         padding-left: 10px;
+        
     }
 }
+
+.main2 {
+    @extend .main;
+    .img_art2 {
+        @extend .img_art;
+        margin-top: 40px;
+    }
+    .titulo2 {
+        @extend .titulo;
+        color: $dark;
+    }
+    background-color: $translight;
+    }

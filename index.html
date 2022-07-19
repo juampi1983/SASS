@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autohealth</title>
+    <meta name="keywords" content="mantenimiento, app, simple, mobile, avería, preventivo, notificación, ahorro">
+    <meta name="description" content="Autohealth es una aplicación mobile que te ayuda a planificar los mantenimientos preventivos de tus vehículos y evitar averías costosas.">
+    <title>Autohealth. Confía en tu vehículo!</title>
     <link rel="icon" type="image/jpg" href="img/favicon.png"/>
 		
 		<!-- Boostrap CSS - bootstrap.min.css -->
@@ -13,51 +15,71 @@
 		<!-- Mi CSS -->
 		<link rel="stylesheet" href="css/main.css">
 
-        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-</head>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+    
+    
+
+
+  </head>
 <body>
 <header>
     <!-- Inicia Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light base">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light base">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="img/autohealth_banner.jpg" alt="Logo de autohealth" class="logo_nav">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link text-grey" aria-current="page" href="descargas.html">Descargas</a>
+                <a class="nav-link text-grey" aria-current="page" href="views/descargas.html">Descargas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-grey" aria-current="page" href="contacto.html">Contacto</a>
+                <a class="nav-link text-grey" aria-current="page" href="views/contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-grey" aria-current="page" href="blog.html">Blog</a>
+                <a class="nav-link text-grey" aria-current="page" href="views/foro.html">Foro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-grey" aria-current="page" href="registrate.html">Registrate</a>
+                <a class="nav-link text-grey" aria-current="page" href="views/registrate.html">Registrate</a>
               </li>
             </div>
         </div>
-      </nav>
+  </nav>
     <!-- Cierra Nav -->
 </header>
 
 <!-- Inicia Main -->
-
-<div class="card mb-3 main">
-    <img src="img/volante.jpg" class="card-img-top img_art" alt="auto interior">
-    <div class="card-body">
-      <h5 class="card-title">Ventajas de usar nuestro sistema</h5>
-      <p class="card-text">Tener un automóvil es una ventaja en paises como ARGENTINA y alrededores, pero también es un gasto enorme. El combustible y el mantenimiento de un vehículo pueden significar mucho dinero, pero con la app <strong>Autohealth</strong> podrán gestionar los mantenimientos de su vehículo y evitar averias aún mas costosas.</p>
-      <p class="card-text"><small class="text-muted">Fuente: JP Escudero - CEO</small></p>
+<main>
+<div= class="articulo">
+  <div class="row">
+    <div class="card mb-3 col-sm-6 main">
+        <img src="img/volante.jpg" class="card-img-top img_art" alt="auto interior">
+        <div class="card-body">
+          <h1 class="card-title titulo">Ventajas de usar nuestro sistema</h1>
+          <p class="card-text">El combustible y el mantenimiento de un vehículo pueden significar mucho dinero, pero con la app <strong>Autohealth</strong> podrán gestionar los mantenimientos de su vehículo y <em> evitar averias aún mas costosas</em>. </p>
+            <p class="card-text">Pensando en la administración de flotas desde un punto de vista corporativo, el mantenimiento preventivo es la tarea más importante para maximizar la disponibilidad del vehículo y para mantener su valor hasta el recambio de la flota.</p>
+            <p class="card-text">Nuestro servicio <strong>Autohealth</strong> se basa en el seguimiento constante del kilometraje de sus vehículos, a partir de los cuales nuestro sistema genera alertas para iniciar el proceso de mantenimiento preventivo.
+            La aplicación sugiere, al momento de realizar el mantenimiento, posibles talleres.</p>
+          <p class="card-text"><small class="text-muted">Fuente: JP Escudero - CEO</small></p>
+        </div>
+    </div>
+    <div class="card mb-3 col-sm-6 main2">
+        <img src="img/ganancia.jpg" class="card-img-top img_art2" alt="ganancias">
+          <div class="card-body">
+            <h2 class="card-title titulo2">Ahorre dinero</h2>
+            <p class="card-text">Contar con una adecuada planificación de los mantenimientos preventivos de su vehículo, no solo le ahorrará dolores de cabeza sino que también le <em>ahorrará dinero</em>.</p>
+            
+          </div>
     </div>
   </div>
-  
-
+</div>
+</main>
 <!-- Cierra Main -->
 
 <!-- Inicia Footer -->
@@ -69,54 +91,60 @@
       <section class="mb-4">
         <!-- Facebook -->
         <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
+          class="btn btn-link btn-floating btn-lg text-dark m-1 "
+          href="http://www.facebook.com"
           role="button"
-          data-mdb-ripple-color="dark"
+          data-mdb-ripple-color="dark" 
+          target="blank"
           ><i class="fab fa-facebook-f"></i
         ></a>
   
         <!-- Twitter -->
         <a
           class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
+          href="http://www.twitter.com"
           role="button"
           data-mdb-ripple-color="dark"
+          target="blank"
           ><i class="fab fa-twitter"></i
         ></a>
   
         <!-- Google -->
         <a
           class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
+          href="http://www.google.com"
           role="button"
           data-mdb-ripple-color="dark"
+          target="blank"
           ><i class="fab fa-google"></i
         ></a>
   
         <!-- Instagram -->
         <a
           class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
+          href="http://www.instagram.com"
           role="button"
           data-mdb-ripple-color="dark"
+          target="blank"
           ><i class="fab fa-instagram"></i
         ></a>
   
         <!-- Linkedin -->
         <a
           class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
+          href="http://www.linkedin.com"
           role="button"
           data-mdb-ripple-color="dark"
+          target="blank"
           ><i class="fab fa-linkedin"></i
         ></a>
         <!-- Github -->
         <a
           class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
+          href="http://www.github.com"
           role="button"
           data-mdb-ripple-color="dark"
+          target="blank"
           ><i class="fab fa-github"></i
         ></a>
       </section>
@@ -127,7 +155,7 @@
     <!-- Copyright -->
     <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      <a class="text-dark" href="https://mdbootstrap.com/" target="blank">MDBootstrap.com</a>
     </div>
     <!-- Copyright -->
   </footer>
@@ -136,5 +164,6 @@
 
 <!-- JS bootstrap.min.js -->
     <script src="js/bootstrap.min.js"></script>
+    
 </body>
 </html>

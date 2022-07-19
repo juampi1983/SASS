@@ -1,217 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>AUTOHEALTH - Confiá en tu auto!</title>
-		<link rel="icon" type="image/jpg" href="../img/favicon.png"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mantenimiento, app, simple, mobile, avería, preventivo, notificación, ahorro, contacto, mailing, ">
+    <meta name="description" content="En esta sección podrás dejarnos tus datos para que nos contactemos, podrás hacer consultas.">
+    <title>Contacto</title>
+    <link rel="icon" type="image/jpg" href="../img/favicon.png"/>
 		
 		<!-- Boostrap CSS - bootstrap.min.css -->
 		<link rel="stylesheet" href="../css/bootstrap.min.css">
 
 		<!-- Mi CSS -->
-		<link rel="stylesheet" href="../css/style2.css">
+		<link rel="stylesheet" href="../css/main.css">
 
-		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<header class="base">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<div class="container-fluid">
-				  <a class="navbar-brand" href="../index.html">
-					<img src="../img/autohealth_banner.jpg" alt="Logo de autohealth" class="logo_nav">
-				  </a>
-				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				  </button>
-				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					  <li class="nav-item">
-						<a class="nav-link" href="../views/descargas.html">Descargas</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link active" href="../views/contacto.html">Contacto</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="../views/blog.html">Blog</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link " href="../views/registrate.html">Registrate</a>
-					  </li>
-					</ul>
-				  </div>
-				</div>
-			  </nav>
-		</header>
-		<!-- ends header -->
-		<main>
-			<h1 class="margin-left--100">Dejanos tus consulta!</h1>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <!-- Inicia Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light base">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/autohealth_banner.jpg" alt="Logo de autohealth" class="logo_nav">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-grey" aria-current="page" href="../views/descargas.html">Descargas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-grey" aria-current="page" href="../views/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-grey" aria-current="page" href="../views/foro.html">Foro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-grey" aria-current="page" href="../views/registrate.html">Registrate</a>
+              </li>
+            </div>
+        </div>
+      </nav>
+    <!-- Cierra Nav -->
+</header>
 
-			<form action="envio.php" class="formulario">
-				<fieldset>
-					<legend class="text-bold">Info personal</legend>
-						<label for="nombre">Nombre y Apellido</label>
-							<input type="text" id="nombre" placeholder="John Doe">
-							<br>
-						<label for="mail">Mail</label>
-							<input type="mail" id="mail" placeholder="correo@ejemplo.com" required>
-				</fieldset>
-				<fieldset>	
-					<legend class="text-bold">Info comercial</legend>
-						<label for="version">Que versión te interesa ?</label>
-							<select name="Qué versión te interesa más?" id="version">
-								<option value="lite">Lite</option>
-								<option value="home">Home</option>
-								<option value="pro">Pro</option>
-							</select><br>
-						<label for="os">Sistema operativo</label>
-							
-						<label for="android">Android</label>
-							<input type="radio" id="android" name="os" value="android">
-						<label for="ios">iOS</label>
-							<input type="radio" id="ios" name="os" value="ios">
-							
-							<br><br>
-						<label for="mensaje">Tu mensaje</label>
-							<br>
-								<textarea name="Deje su mensaje" id="mensaje" cols="60" rows="10"></textarea>
-							<br>
-								<input type="submit" value="Enviar">
-								<input type="reset" value="Cancelar">
-				</fieldset>
-			</form>
+<!-- Inicia Main -->
+<div class="contacto">
+<h1 class="titulocontacto">Querés decirnos algo?</h1>
 
-		</main>	
+<div class="row col-sm-6 col-md-6 col-lg-6 col-xl-6">
 
-		<footer class="text-center text-lg-start text-white pie">
-			<!-- Grid container -->
-			<div class="container p-4 pb-0">
-			<!-- Section: Links -->
-			<section class="">
-				<!--Grid row-->
-				<div class="row">
-				<!-- Grid column -->
-				<div class="col-md-3 col-lg-4 col-xl-4 mx-auto mt-3">
-					<h6 class="text-uppercase mb-4 font-weight-bold">
-					Links de interes
-					</h6>
-					<p>
-					<a class="text-white">Nosotros</a>
-					</p>
-					<p>
-					<a class="text-white">Terminos del servicio</a>
-					</p>
-					<p>
-					<a class="text-white">Politica de privacidad</a>
-					</p>
-					<p>
-					<a class="text-white">Soporte Tecnico</a>
-					</p>
-				</div>
+<!-- Wrapper container -->
+<div class="container py-4">
 
-				<!-- Grid column -->
-				<hr class="w-100 clearfix d-md-none" />
+  <!-- Bootstrap 5 starter form -->
+  <form id="contactForm">
 
-				<!-- Grid column -->
-				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
-					<p><i class="fas fa-home mr-3"></i> Mendoza, CP 5500, AR</p>
-					<p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-					<p><i class="fas fa-phone mr-3"></i> + 549 261 567 88</p>
-				</div>
-				<!-- Grid column -->
-				</div>
-				<!--Grid row-->
-			</section>
-			<!-- Section: Links -->
+    <!-- Name input -->
+    <div class="mb-3">
+      <label class="form-label" for="name">Nombre y apellido</label>
+      <input class="form-control" id="name" type="text" placeholder="Pepe Hongo" data-sb-validations="required" />
+      <div class="invalid-feedback" data-sb-feedback="name:required">Este campo es obligatorio.</div>
+    </div>
 
-			<hr class="my-3">
+    <!-- Email address input -->
+    <div class="mb-3">
+      <label class="form-label" for="emailAddress">Mail</label>
+      <input class="form-control" id="emailAddress" type="email" placeholder="usuario@prueba.com" data-sb-validations="required, email" />
+      <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Este campo es obligatorio.</div>
+      <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Mail inválido.</div>
+    </div>
 
-			<!-- Section: Copyright -->
-			<section class="p-3 pt-0">
-				<div class="row d-flex align-items-center">
-				<!-- Grid column -->
-				<div class="col-md-7 col-lg-8 text-center text-md-start">
-					<!-- Copyright -->
-					<div class="p-3">
-					© 2022 Copyright:
-					<a class="text-white" href="index.html">Autohealth.com</a
-						>
-					</div>
-					<!-- Copyright -->
-				</div>
-				<!-- Grid column -->
+    <!-- Message input -->
+    <div class="mb-3">
+      <label class="form-label" for="message">Tu mensaje</label>
+      <textarea class="form-control" id="message" type="text" placeholder="Hola.." style="height: 10rem;" data-sb-validations="required"></textarea>
+      <div class="invalid-feedback" data-sb-feedback="message:required">Este campo es obligatorio</div>
+    </div>
 
-				<!-- Grid column -->
-				<div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-					<!-- Facebook -->
-					<a
-					class="btn btn-outline-light btn-floating m-1"
-					class="text-white"
-					role="button"
-					href="https://www.facebook.com" target="_blank"
-					><i class="fab fa-facebook-f"></i
-					></a>
+    <!-- Form submissions success message -->
+    <div class="d-none" id="submitSuccessMessage">
+      <div class="text-center mb-3">Form submission successful!</div>
+    </div>
 
-					<!-- Twitter -->
-					<a
-					class="btn btn-outline-light btn-floating m-1"
-					class="text-white"
-					role="button"
-					href="https://www.twitter.com" target="_blank"
-					><i class="fab fa-twitter"></i
-					></a>
+    <!-- Form submissions error message -->
+    <div class="d-none" id="submitErrorMessage">
+      <div class="text-center text-danger mb-3">Error sending message!</div>
+    </div>
 
-					<!-- Instagram -->
-					<a
-					class="btn btn-outline-light btn-floating m-1"
-					class="text-white"
-					role="button"
-					href="https://www.instagram.com" target="_blank"
-					><i class="fab fa-instagram"></i
-					></a>
-				</div>
-				<!-- Grid column -->
-				</div>
-			</section>
-			<!-- Section: Copyright -->
-			</div>
-			<!-- Grid container -->
-		</footer>
+    <!-- Form submit button -->
+    <div class="d-grid">
+      <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
+    </div>
 
-		<!-- <footer class="pie">
-			<ul>
-				<li>
-					<a href="#" class="pie__link">Sobre nosotros</a>
-				</li>
-				<li>
-					<a href="#" class="pie__link">Términos del servicio</a>
-				</li>
-				<li>
-					<a href="#" class="pie__link">Política de privacidad</a>
-				</li>
-				<li>
-					<a href="#" class="pie__link">Desarrolladores</a>
-				</li>
-				<li>
-					<a href="#" class="pie__link">Soporte técnico</a>
-				</li>
-				<li>
-					<a href="../views/descargas.html" class="pie__link">Descargas</a>
-				</li>
-			</ul>
-				<a href="https://www.facebook.com" target="blank" class="pie__rrss">
-					<img src="../img/fb.png" alt="Facebook logo" width="60" height="40" class="pie__rrss--s">
-				</a>
-				<a href="https://www.instagram.com" target="blank"class="pie__rrss">
-					<img src="../img/ig.png" alt="Instagram logo" width="60" height="40" class="pie__rrss--s">
-				</a>
-				<a href="httsp://www.linkedin.com" target="blank"class="pie__rrss">
-					<img src="../img/ln.png" alt="Linkedin logo" width="60" height="40" class="pie__rrss--s">
-				</a>
-			
-		</footer> -->
-		<!-- JS bootstrap.min.js -->
-		<script src="../js/bootstrap.min.js"></script>
-	</body>
+  </form>
+
+</div>
+  
+</div>
+
+</div>
+
+<!-- Cierra Main -->
+
+<!-- Inicia Footer -->
+
+<footer class="text-center text-white pie" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1 "
+          href="http://www.facebook.com"
+          role="button"
+          data-mdb-ripple-color="dark" 
+          target="blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="http://www.twitter.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="http://www.google.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="blank"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="http://www.instagram.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="http://www.linkedin.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="http://www.github.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/" target="blank">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+<!-- Cierra Footer -->
+
+<!-- JS bootstrap.min.js -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
 </html>

@@ -1,223 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>AUTOHEALTH - Confiá en tu auto!</title>
-		<link rel="icon" type="image/jpg" href="../img/favicon.png"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mantenimiento, app, simple, mobile, avería, preventivo, notificación, ahorro, versión, descarga, download">
+    <meta name="description" content="Descargá la versión que más te convenga para tu bolsillo.">
+    <title>Descargá la versión que necesites</title>
+    <link rel="icon" type="image/jpg" href="../img/favicon.png"/>
 		
 		<!-- Boostrap CSS - bootstrap.min.css -->
 		<link rel="stylesheet" href="../css/bootstrap.min.css">
 
 		<!-- Mi CSS -->
-		<link rel="stylesheet" href="../css/style2.css">
+		<link rel="stylesheet" href="../css/main.css">
 
-		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<div class="grid_contenedor">
-			<header class="base">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					<div class="container-fluid">
-					  <a class="navbar-brand" href="../index.html">
-						<img src="../img/autohealth_banner.jpg" alt="Logo de autohealth" class="logo_nav">
-					  </a>
-					  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					  </button>
-					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						  <li class="nav-item">
-							<a class="nav-link active" href="../views/descargas.html">Descargas</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" href="../views/contacto.html">Contacto</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" href="../views/blog.html">Blog</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link " href="../views/registrate.html">Registrate</a>
-						  </li>
-						</ul>
-					  </div>
-					</div>
-				  </nav>
-			</header>
-			<!-- ends header -->
-		<main>
-			<div class="formulario margin-top--100">
-			<h1>Elegí la versión que prefieras!</h1>
-			<table border="1px">
-				<th>
-					<td><b>VERSIÓN LITE</b></td>
-					<td><b>VERSIÓN HOME</b></td>
-					<td><b>VERSIÓN PRO</b></td>			
-				</th>	
-				<tr>
-					<td><b>PUBLICIDAD EN LA APP</b></td>
-					<td>Espacio publicitario</td>
-					<td>No</td>
-					<td>No</td>
-				</tr>
-				<tr>
-					<td><b>MANTENIMIENTOS</b></td>
-					<td>Hasta 5 tipos sugeridos</td>
-					<td>Hasta 20 tipos sugeridos y 2 customizables</td>
-					<td>Sin límite customizable</td>			
-				</tr>
-				<tr>
-					<td><b>NOTIFICACIONES</b></td>
-					<td>Mail</td>
-					<td>Mail y Push</td>
-					<td>Mail y Push</td>			
-				</tr>
-				<tr>
-					<td><b>PRECIO</b></td>
-					<td>Gratis</td>
-					<td>USD 3</td>
-					<td>USD 7</td>			
-				</tr>
-				<tr>
-					<td><B>DESCARGAR</B></td>
-					<td><a href="../views/pay.html" target="blank"><img src="../img/descarga.png" alt="descarga lite" height="30" width="30"></a></td>
-					<td><a href="../views/pay.html" target="blank"><img src="../img/descarga.png" alt="descarga home" height="30" width="30"></a></td>
-					<td><a href="../views/pay.html" target="blank"><img src="../img/descarga.png" alt="descarga pro" height="30" width="30"></a></td>
-				</tr>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <!-- Inicia Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light base">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/autohealth_banner.jpg" alt="Logo de autohealth" class="logo_nav">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-grey" aria-current="page" href="../views/descargas.html">Descargas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-grey" aria-current="page" href="../views/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-grey" aria-current="page" href="../views/foro.html">Foro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-grey" aria-current="page" href="../views/registrate.html">Registrate</a>
+              </li>
+            </div>
+        </div>
+      </nav>
+    <!-- Cierra Nav -->
+</header>
 
-			</table>
-			</div>
-		</main>
-		<footer class="text-center text-lg-start text-white pie">
-			<!-- Grid container -->
-			<div class="container p-4 pb-0">
-			<!-- Section: Links -->
-			<section class="">
-				<!--Grid row-->
-				<div class="row">
-				<!-- Grid column -->
-				<div class="col-md-3 col-lg-4 col-xl-4 mx-auto mt-3">
-					<h6 class="text-uppercase mb-4 font-weight-bold">
-					Links de interes
-					</h6>
-					<p>
-					<a class="text-white">Nosotros</a>
-					</p>
-					<p>
-					<a class="text-white">Terminos del servicio</a>
-					</p>
-					<p>
-					<a class="text-white">Politica de privacidad</a>
-					</p>
-					<p>
-					<a class="text-white">Soporte Tecnico</a>
-					</p>
-				</div>
+<!-- Inicia Main -->
+<main>
 
-				<!-- Grid column -->
-				<hr class="w-100 clearfix d-md-none" />
+	<div class="descargas">
+		<h1 class="titulodescargas">Elegí la versión que prefieras!</h1>
+		<table border="1px" class="downloadtable">
+			<th>
+				<td><b>VERSIÓN LITE</b></td>
+				<td><b>VERSIÓN HOME</b></td>
+				<td><b>VERSIÓN PRO</b></td>			
+			</th>	
+			<tr>
+				<td><b>PUBLICIDAD EN LA APP</b></td>
+				<td>Si</td>
+				<td>No</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<td><b>MANTENIMIENTOS</b></td>
+				<td>5 sugeridos</td>
+				<td>20 sugeridos y 2 custom</td>
+				<td>Full</td>			
+			</tr>
+			<tr>
+				<td><b>NOTIFICACIONES</b></td>
+				<td>Mail</td>
+				<td>Mail / Push</td>
+				<td>Mail / Push</td>			
+			</tr>
+			<tr>
+				<td><b>PRECIO</b></td>
+				<td>Gratis</td>
+				<td>USD 3</td>
+				<td>USD 7</td>			
+			</tr>
+			<tr>
+				<td><B>DESCARGAR</B></td>
+				<td><a href="../views/pay.html" target="blank"><img src="../img/descarga.png" alt="descarga lite" height="30" width="30"></a></td>
+				<td><a href="../views/pay.html" target="blank"><img src="../img/descarga.png" alt="descarga home" height="30" width="30"></a></td>
+				<td><a href="../views/pay.html" target="blank"><img src="../img/descarga.png" alt="descarga pro" height="30" width="30"></a></td>
+			</tr>
 
-				<!-- Grid column -->
-				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
-					<p><i class="fas fa-home mr-3"></i> Mendoza, CP 5500, AR</p>
-					<p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-					<p><i class="fas fa-phone mr-3"></i> + 549 261 567 88</p>
-				</div>
-				<!-- Grid column -->
-				</div>
-				<!--Grid row-->
-			</section>
-			<!-- Section: Links -->
-
-			<hr class="my-3">
-
-			<!-- Section: Copyright -->
-			<section class="p-3 pt-0">
-				<div class="row d-flex align-items-center">
-				<!-- Grid column -->
-				<div class="col-md-7 col-lg-8 text-center text-md-start">
-					<!-- Copyright -->
-					<div class="p-3">
-					© 2022 Copyright:
-					<a class="text-white" href="index.html">Autohealth.com</a
-						>
-					</div>
-					<!-- Copyright -->
-				</div>
-				<!-- Grid column -->
-
-				<!-- Grid column -->
-				<div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-					<!-- Facebook -->
-					<a
-					class="btn btn-outline-light btn-floating m-1"
-					class="text-white"
-					role="button"
-					href="https://www.facebook.com" target="_blank"
-					><i class="fab fa-facebook-f"></i
-					></a>
-
-					<!-- Twitter -->
-					<a
-					class="btn btn-outline-light btn-floating m-1"
-					class="text-white"
-					role="button"
-					href="https://www.twitter.com" target="_blank"
-					><i class="fab fa-twitter"></i
-					></a>
-
-					<!-- Instagram -->
-					<a
-					class="btn btn-outline-light btn-floating m-1"
-					class="text-white"
-					role="button"
-					href="https://www.instagram.com" target="_blank"
-					><i class="fab fa-instagram"></i
-					></a>
-				</div>
-				<!-- Grid column -->
-				</div>
-			</section>
-			<!-- Section: Copyright -->
-			</div>
-			<!-- Grid container -->
-		</footer>
+		</table>
+	</div>
 
 
-		<!-- <footer class="pie">
-			<ul>
-				<li>
-					<a href="#" class="pie__link">Sobre nosotros</a>
-				</li>
-				<li>
-					<a href="#" class="pie__link">Términos del servicio</a>
-				</li>
-				<li>
-					<a href="#" class="pie__link">Política de privacidad</a>
-				</li>
-				<li>
-					<a href="#" class="pie__link">Desarrolladores</a>
-				</li>
-				<li>
-					<a href="#" class="pie__link">Soporte técnico</a>
-				</li>
-				<li>
-					<a href="../views/descargas.html" class="pie__link">Descargas</a>
-				</li>
-			</ul>
-				<a href="https://www.facebook.com" target="blank" class="pie__rrss">
-					<img src="../img/fb.png" alt="Facebook logo" width="60" height="40" class="pie__rrss--s">
-				</a>
-				<a href="https://www.instagram.com" target="blank"class="pie__rrss">
-					<img src="../img/ig.png" alt="Instagram logo" width="60" height="40" class="pie__rrss--s">
-				</a>
-				<a href="httsp://www.linkedin.com" target="blank"class="pie__rrss">
-					<img src="../img/ln.png" alt="Linkedin logo" width="60" height="40" class="pie__rrss--s">
-				</a>
-			
-		</footer> -->
-		<!-- JS bootstrap.min.js -->
-		<script src="../js/bootstrap.min.js"></script>
-	</body>
+
+</main>
+
+
+<!-- Cierra Main -->
+
+<!-- Inicia Footer -->
+
+<footer class="text-center text-white pie" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1 "
+          href="http://www.facebook.com"
+          role="button"
+          data-mdb-ripple-color="dark" 
+          target="blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="http://www.twitter.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="http://www.google.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="blank"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="http://www.instagram.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="http://www.linkedin.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="http://www.github.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/" target="blank">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+<!-- Cierra Footer -->
+
+<!-- JS bootstrap.min.js -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
 </html>
