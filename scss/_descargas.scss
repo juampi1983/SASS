@@ -1,19 +1,22 @@
 .descargas {
-    background-color: $translight ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .titulodescargas {
-        font-size: $textLg ;
-        font-weight: $medium;
-        color: $dark;
-       margin-top: 1em;
-    }
-    .downloadtable {
-    background-color: $mainColor ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .titulodescargas {
+    font-size: $textLg;
+    font-weight: $medium;
+    color: $white;
+    margin-top: 1em;
+  }
+  .downloadtable {
+    background-color: $mainColor;
     border-style: double;
     color: $white;
-    margin-bottom: 2em;
+    margin-bottom: 26em;
     margin-top: 2em;
-    }
+    font-size: $textMd;
+    width: 70vw;
+    height: 50vh;
+    text-align: center;
+  }
 }

@@ -1,38 +1,36 @@
-.articulo {
+main {
+  .articulo {
     display: flex;
     justify-content: space-between;
-    
-}
-
-.main {
-    background-color: $mainColor;
-    .titulo {
-        font-size: $textLg ;
+    .main {
+      background-image: url("../img/fondo.jpg");
+      .titulo {
+        font-size: $textLg;
         text-decoration: underline;
         font-weight: $medium;
-        color: whitesmoke
-    }
-    p {
-@include parrafomain (1.5em, white);
-        
-    }
-    .img_art {
+        color: whitesmoke;
+      }
+      p {
+        @include parrafomain(1.5em, white);
+      }
+      .img_art {
         width: 40vw;
         padding-top: 10px;
         padding-left: 10px;
-        
+      }
     }
-}
 
-.main2 {
-    @extend .main;
-    .img_art2 {
+    .main2 {
+      @extend .main;
+      .img_art2 {
         @extend .img_art;
         margin-top: 40px;
-    }
-    .titulo2 {
+      }
+      .titulo2 {
         @extend .titulo;
-        color: $dark;
+        // color: $dark;
+      }
+      background-color: $translight;
     }
-    background-color: $translight;
-    }
+  }
+}

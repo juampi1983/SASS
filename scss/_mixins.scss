@@ -1,8 +1,7 @@
-@mixin parrafomain ($size, $color) {
-font-family:$mainFont ;
-font-size: $size;
-color: $color;
-width: 40vw;
-font-weight: $light;
+@mixin parrafomain($size, $color) {
+  font-family: $mainFont;
+  font-size: $size;
+  color: $color;
+  width: 40vw;
+  font-weight: $light;
 }
-    

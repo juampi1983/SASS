@@ -1,0 +1,21 @@
+body {
+  background-image: url("../img/fondo.jpg");
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 9em;
+    font-size: $textMd;
+    .titulocontacto {
+      font-size: $textLg;
+      font-weight: $medium;
+      color: $white;
+      margin-top: 1em;
+    }
+    .contenedor {
+      .botonenviar {
+        background-color: $mainColor;
+      }
+    }
+  }
+}

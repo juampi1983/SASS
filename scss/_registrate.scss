@@ -1,0 +1,19 @@
+main {
+  background-image: url("../img/fondo.jpg");
+  h1 {
+    text-align: center;
+    font-size: $textLg;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: $white;
+  }
+  .registro {
+    font-size: $textMd;
+    margin-left: 5em;
+    margin-right: 5em;
+    .botonregistrar {
+      background-color: $mainColor;
+      width: 15em;
+    }
+  }
+}

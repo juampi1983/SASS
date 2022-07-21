@@ -11,62 +11,90 @@
   .base ul li a {
     font-size: 1.5em; }
 
-.articulo {
+main .articulo {
   display: flex;
   justify-content: space-between; }
-
-.main, .main2 {
-  background-color: #45526e; }
-  .main .titulo, .main2 .titulo, .main2 .titulo2 {
-    font-size: 2em;
-    text-decoration: underline;
-    font-weight: 500;
-    color: whitesmoke; }
-  .main p, .main2 p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.5em;
-    color: white;
-    width: 40vw;
-    font-weight: 300; }
-  .main .img_art, .main2 .img_art, .main2 .img_art2 {
-    width: 40vw;
-    padding-top: 10px;
-    padding-left: 10px; }
-
-.main2 {
-  background-color: rgba(0, 166, 251, 0.5); }
-  .main2 .img_art2 {
-    margin-top: 40px; }
-  .main2 .titulo2 {
-    color: #051923; }
+  main .articulo .main, main .articulo .main2 {
+    background-image: url("../img/fondo.jpg"); }
+    main .articulo .main .titulo, main .articulo .main2 .titulo, main .articulo .main2 .titulo2 {
+      font-size: 2em;
+      text-decoration: underline;
+      font-weight: 500;
+      color: whitesmoke; }
+    main .articulo .main p, main .articulo .main2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.5em;
+      color: white;
+      width: 40vw;
+      font-weight: 300; }
+    main .articulo .main .img_art, main .articulo .main2 .img_art, main .articulo .main2 .img_art2 {
+      width: 40vw;
+      padding-top: 10px;
+      padding-left: 10px; }
+  main .articulo .main2 {
+    background-color: rgba(0, 166, 251, 0.5); }
+    main .articulo .main2 .img_art2 {
+      margin-top: 40px; }
 
 .pie {
   background: linear-gradient(to right, white, #45526e); }
 
 .descargas {
-  background-color: rgba(0, 166, 251, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center; }
   .descargas .titulodescargas {
     font-size: 2em;
     font-weight: 500;
-    color: #051923;
+    color: #e7edea;
     margin-top: 1em; }
   .descargas .downloadtable {
     background-color: #45526e;
     border-style: double;
     color: #e7edea;
-    margin-bottom: 2em;
-    margin-top: 2em; }
+    margin-bottom: 26em;
+    margin-top: 2em;
+    font-size: 1.5em;
+    width: 70vw;
+    height: 50vh;
+    text-align: center; }
 
-.contacto {
-  background-color: rgba(0, 166, 251, 0.5);
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .contacto .titulocontacto {
+body {
+  background-image: url("../img/fondo.jpg"); }
+  body .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 9em;
+    font-size: 1.5em; }
+    body .contacto .titulocontacto {
+      font-size: 2em;
+      font-weight: 500;
+      color: #e7edea;
+      margin-top: 1em; }
+    body .contacto .contenedor .botonenviar {
+      background-color: #45526e; }
+
+main {
+  background-image: url("../img/fondo.jpg"); }
+  main h1 {
+    text-align: center;
     font-size: 2em;
-    font-weight: 500;
-    color: #051923;
-    margin-top: 1em; }
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #e7edea; }
+  main .registro {
+    font-size: 1.5em;
+    margin-left: 5em;
+    margin-right: 5em; }
+    main .registro .botonregistrar {
+      background-color: #45526e;
+      width: 15em; }
+
+.forocompleto h1 {
+  color: #e7edea; }
+
+.forocompleto .foro {
+  font-size: 1.5em;
+  margin-left: 10em;
+  margin-bottom: 5em; }
