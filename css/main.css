@@ -48,16 +48,6 @@ main .articulo {
     font-weight: 500;
     color: #e7edea;
     margin-top: 1em; }
-  .descargas .downloadtable {
-    background-color: #45526e;
-    border-style: double;
-    color: #e7edea;
-    margin-bottom: 26em;
-    margin-top: 2em;
-    font-size: 1.5em;
-    width: 70vw;
-    height: 50vh;
-    text-align: center; }
 
 body {
   background-image: url("../img/fondo.jpg"); }
@@ -96,5 +86,5 @@ main {
 
 .forocompleto .foro {
   font-size: 1.5em;
-  margin-left: 10em;
+  margin-left: 1em;
   margin-bottom: 5em; }
